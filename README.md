@@ -1,82 +1,74 @@
 Vendor Risk Management Portfolio
 
-Practical, evidence based work demonstrating SOC Two reviews, ISO control mapping, questionnaires, risk scoring models, and complete vendor assessments.
+This portfolio contains practical Vendor Risk Management work including SOC Two reviews, ISO control evaluations, questionnaires, scoring models, and complete vendor assessments. It demonstrates job ready skills for Vendor Risk, GRC, and Security Assurance roles.
 
-This portfolio was built during an accelerated twenty one day Vendor Risk Analyst Blitz and is designed to reflect real Vendor Risk Management workflows.
+Table of Contents
 
-Badges
+1. Portfolio Overview
 
-SOC Two ISO Twenty Seven Thousand One Vendor Risk GRC Security Analysis Risk Scoring Documentation
+2. Documentation
 
-Table of contents
+3. Questionnaires
 
-Portfolio overview
+4. Risk Models
 
-Documentation section
+5. Sample Assessments
 
-Questionnaires section
+6. Week One Progress
 
-Risk models and scoring
+7. Skills and Tools
 
-Projects and sample assessments
+8. Repository Navigation
 
-Week one learning progress
+9. Purpose of This Portfolio
 
-Skills and tools overview
+10. Professional Links
 
-How to navigate this repository
+1. Portfolio Overview
 
-Why I built this portfolio
+This repository demonstrates real Vendor Risk work including evidence review, risk analysis, documentation, and security evaluation. It mirrors the workflow used by Vendor Risk teams and supports interview readiness.
 
-Contact and professional links
-
-1. Portfolio overview
-
-This portfolio represents real Vendor Risk Management work. It includes SOC Two interpretation, ISO control mapping, vendor intake workflows, security questionnaires, risk scoring, and complete vendor assessments.
-
-The goal is to show practical, job ready capability rather than only listing skills.
-
-2. Documentation section
+2. Documentation
 
 Location
 docs folder
 
-Included
+Contents
 
 SOC Two Trust Service Criteria explained
 How to review a SOC Two report
 Vendor related ISO controls
-What a Vendor Risk Analyst does
+Overview of the Vendor Risk Analyst role
 
-These documents are written in a clear, interview friendly format and can be used as talking points during conversations with hiring managers.
+These documents show understanding of industry frameworks and security evaluation methods.
 
-3. Questionnaires section
+3. Questionnaires
 
 Location
 questionnaires folder
 
-Included
+Contents
 
 Vendor Security Questionnaire
 Vendor Intake Form
 
-These templates collect structured security evidence from vendors during onboarding and reassessment.
+These files support structured vendor onboarding and standardized evidence collection.
 
-4. Risk models and scoring
+4. Risk Models
 
 Location
 risk models folder
 
-Included
+Contents
 
 Vendor Risk Scoring Explained
 Likelihood and impact concepts
-Tier definitions
+Vendor tier definitions
 Matrix logic
 
-These files show how vendors are rated and how risk decisions are justified in a consistent and defensible way.
+These models demonstrate the ability to rate vendors and justify risk decisions.
 
-5. Projects and sample assessments
+5. Sample Assessments
 
 Location
 projects folder
@@ -85,64 +77,63 @@ Included
 
 Sample Vendor Assessment for Nimbus Analytics
 
-This assessment demonstrates the complete review process including SOC Two findings, ISO evaluation, questionnaire analysis, risk scoring, remediation items, and a final approval decision.
+This project shows the complete Vendor Risk workflow including SOC Two review, ISO control evaluation, questionnaire analysis, risk scoring, remediation, and final decision.
 
-6. Week one learning progress
+6. Week One Progress
 
 Location
 week_one folder
 
-Each day contains
+Each day includes
 
 Notes
 Reflection
 
-This section shows learning progress throughout the twenty one day Blitz and highlights how knowledge builds over time.
+This section documents consistent progress and learning across the first week of the Vendor Risk Analyst Blitz.
 
-7. Skills and tools overview
+7. Skills and Tools
 
-Skills demonstrated
+Key skills
 
 SOC Two analysis
 ISO control mapping
-Evidence based evaluation
-Vendor intake and security questionnaires
+Vendor intake and questionnaires
 Risk scoring and tiering
-Remediation planning
 Security documentation
-Continuous monitoring concepts
+Remediation planning
+Evidence based evaluation
 
 Tools used
 
 GitHub
-Structured Markdown
-Security frameworks such as SOC Two and ISO Twenty Seven Thousand One
+Markdown
+Security frameworks
+Vendor assessment workflows
 
-8. How to navigate this repository
+8. Repository Navigation
 
 docs folder
-Read first for foundational knowledge
+Foundational knowledge and reference material
 
 questionnaires folder
-Use to see how vendor information is collected
+Vendor intake and security questionnaires
 
 risk models folder
-Review to understand how vendors are scored
+Risk scoring logic and evaluation methods
 
 projects folder
-Read to see full Vendor Risk assessments
+Completed vendor assessments
 
 week_one folder
-Review to understand learning process and daily progress
+Daily learning progress
 
-9. Why I built this portfolio
+9. Purpose of This Portfolio
 
-This portfolio was created to provide a transparent and realistic view of my capabilities as a Vendor Risk Analyst. Instead of only listing skills, it shows actual work products that align with how real Vendor Risk and GRC teams operate when they evaluate third party vendors.
+This portfolio provides clear, practical examples of Vendor Risk Analyst skills. It contains real documentation, analysis workflows, and scoring methods that align with how GRC and Vendor Risk teams evaluate third party vendors.
 
-10. Contact and professional links
+10. Professional Links
 
 Links will be added here such as
 
 LinkedIn
 Resume
-Professional website
