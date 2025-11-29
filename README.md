@@ -25,7 +25,7 @@ Table of Contents
 10. Professional Links
 
 
-1. Portfolio Overview
+Portfolio Overview
 
 This repository demonstrates real Vendor Risk work including evidence review, risk analysis, documentation, and security evaluation. It mirrors the workflow used by Vendor Risk teams and supports interview readiness.
 
