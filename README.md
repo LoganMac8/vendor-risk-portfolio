@@ -4,84 +4,51 @@
 ██║   ██║██╔══╝  ██║╚██╗██║██╔══██╗██║   ██║██╔══██╗
 ╚██████╔╝███████╗██║ ╚████║██║  ██║╚██████╔╝██║  ██║
  ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝ 
+
 ██████╗  █████╗ ███╗   ██╗ █████╗ ██╗   ██╗███████╗
 ██╔══██╗██╔══██╗████╗  ██║██╔══██╗╚██╗ ██╔╝██╔════╝
 ██████╔╝███████║██╔██╗ ██║███████║ ╚████╔╝ ███████╗
 ██╔══██╗██╔══██║██║╚██╗██║██╔══██║  ╚██╔╝  ╚════██║
 ██████╔╝██║  ██║██║ ╚████║██║  ██║   ██║   ███████║
 ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝   ╚══════╝
-A complete and professional Vendor Risk Management portfolio demonstrating real world GRC skills. This repository contains SOC Two reviews, ISO control evaluations, vendor questionnaires, scoring models, intake processes, and full sample assessments created during an accelerated twenty one day Vendor Risk Analyst Blitz.
-
-It is designed to mirror the workflow used by actual Vendor Risk teams and to present recruiter ready work that demonstrates job ready skills.
-
 <div align="center">
-Core Skills Demonstrated
-
-✔ SOC Two evaluation
-✔ ISO control mapping
-✔ Vendor intake and assessment
-✔ Security questionnaires
-✔ Risk scoring frameworks
-✔ Evidence based analysis
-✔ Remediation planning
-✔ Continuous monitoring concepts
-✔ GRC communication and reporting
+Vendor Risk Management Portfolio
+Practical, evidence based work demonstrating SOC Two reviews, ISO control mapping, questionnaires, scoring models, and complete vendor assessments.
 
 </div>
 <div align="center">
-Tools and Technologies
-
-Security frameworks SOC Two, ISO Twenty Seven Thousand One, NIST
-Risk methods Likelihood and impact analysis, tiering, matrices
-GRC tools GitHub documentation, structured templates, assessment frameworks
-Business tools Vendor intake workflows, reporting, review cycles
+Badges
+SOC Two ISO Twenty Seven Thousand One Vendor Risk GRC Security Analysis Risk Scoring Documentation
 
 </div>
-Skills Matrix
-Skill Area	Demonstrated Through
-SOC Two interpretation	TSC breakdown and sample report review
-ISO controls	Annex A supplier control mapping
-Vendor assessment	Completed evaluation for Nimbus Analytics
-Questionnaires	Vendor Security Questionnaire and Intake Form
-Risk scoring	Five level scoring model and matrix logic
-Documentation	Full suite of Markdown based VRM documents
-Analytical thinking	Findings, exceptions, remediation plans
-Featured Project Nimbus Analytics Assessment
+Table of Contents
+Portfolio overview
 
-This is a full end to end sample Vendor Risk Assessment built using real security evidence and professional review methods.
+Documentation section
 
-It includes
-SOC Two summary
-ISO control evaluation
-Questionnaire validation
-Risk scoring results
-Remediation requirements
-Final approval decision
+Questionnaires section
 
-Located in
-projects folder
-Sample Vendor Assessment
+Risk models and scoring
 
-Table of contents
+Projects and sample assessments
 
-One Portfolio overview
-Two Documentation section
-Three Questionnaires section
-Four Risk models and scoring
-Five Projects and sample assessments
-Six Week one learning progress
-Seven Skills and tools overview
-Eight How to navigate this repository
-Nine Why I built this portfolio
-Ten Contact and professional links
+Week one learning progress
 
-One Portfolio overview
+Skills and tools overview
 
-This portfolio reflects the real responsibilities of a Vendor Risk Analyst. It includes practical work products such as SOC Two breakdowns, ISO mappings, scoring models, questionnaires, and completed vendor assessments. The goal is to demonstrate applied understanding, not theory.
+How to navigate this repository
 
-Two Documentation section
+Why I built this portfolio
 
-Located in the docs folder
+Contact and professional links
+
+1. Portfolio overview
+This portfolio represents real Vendor Risk Management work. It includes SOC Two interpretation, ISO control mapping, vendor intake workflows, security questionnaires, risk scoring, and complete vendor assessments.
+
+The purpose is to provide practical demonstrations rather than simple descriptions.
+
+2. Documentation section
+Located in the docs folder.
 
 Included
 SOC Two Trust Service Criteria explained
@@ -89,69 +56,93 @@ How to review a SOC Two report
 Vendor related ISO controls
 What a Vendor Risk Analyst does
 
-These documents are written in a clear, interview ready style.
+These documents are written in a clear and interview friendly format.
 
-Three Questionnaires section
-
-Located in the questionnaires folder
+3. Questionnaires section
+Located in the questionnaires folder.
 
 Included
 Vendor Security Questionnaire
 Vendor Intake Form
 
-These templates gather the information required for due diligence during vendor onboarding and reassessment.
+These forms structure how security evidence is collected during onboarding and assessments.
 
-Four Risk models and scoring
-
-Located in the risk models folder
+4. Risk models and scoring
+Located in the risk models folder.
 
 Included
-Vendor Risk Scoring Explained
+Risk scoring explanation
 Likelihood and impact concepts
-Tier definitions and matrix logic
+Tier definitions
+Matrix logic
 
-These demonstrate how vendors are rated and how security decisions are justified.
+These models support consistent and defensible vendor decisions.
 
-Five Projects and sample assessments
+5. Projects and sample assessments
+Located in the projects folder.
 
-Located in the projects folder
+Included
+Sample Vendor Assessment for Nimbus Analytics
 
-The main featured project is the Sample Vendor Assessment for Nimbus Analytics
-This assessment shows the complete review lifecycle from evidence collection to final approval.
+This assessment demonstrates the complete review process including SOC Two findings, ISO evaluation, questionnaire analysis, risk scoring, remediation, and approval decision.
 
-Six Week one learning progress
+6. Week one learning progress
+Located in the week one folder.
 
-Located in the week one folder
-Each day contains Notes and Reflection files that document learning throughout the Blitz.
+Each day includes
+Notes
+Reflection
 
-Seven Skills and tools overview
+This section shows progress throughout the twenty one day Blitz.
 
-Use this section to quickly understand my technical and analytical capabilities in Vendor Risk Management. Additional tools and certifications may be added as learning progresses.
+7. Skills and tools overview
+Skills demonstrated
+SOC Two analysis
+ISO control mapping
+Evidence based evaluation
+Vendor intake and security questionnaires
+Risk scoring and tiering
+Remediation planning
+Security documentation
+Continuous monitoring concepts
 
-Eight How to navigate this repository
+Tools used
+GitHub
+Structured Markdown
+SOC Two and ISO frameworks
 
+8. How to navigate this repository
 docs folder
-Foundational knowledge such as SOC Two, ISO, and review guidance
+Foundational learning and reference material
 
 questionnaires folder
-Templates for intake and security evaluation
+Intake and questionnaire templates
 
 risk models folder
-Scoring logic, matrices, and tier definitions
+Scoring logic and evaluation frameworks
 
 projects folder
-Completed assessments with final decisions
+Completed assessments
 
 week one folder
-Daily work logs and reflections
+Daily progress files
 
-Nine Why I built this portfolio
+9. Why I built this portfolio
+This portfolio was created to show real Vendor Risk Analyst skills through complete and authentic work products. It provides a transparent view of security evaluations, review methods, scoring systems, and decision making that align with actual Vendor Risk workflows used in industry.
 
-I created this portfolio to demonstrate real Vendor Risk Analyst skills in a clear and practical way. Rather than listing skills, this repository shows actual work products that reflect industry practices. It is designed to be transparent, professional, and aligned with the responsibilities of real GRC teams.
-
-Ten Contact and professional links
-
+10. Contact and professional links
 Links can be added here
 LinkedIn
 Resume
-Professional website or portfolio
+Professional website
+
+<div align="center">
+Copy code
+███████╗ ██████╗ ██╗   ██╗███████╗
+██╔════╝██╔═══██╗██║   ██║██╔════╝
+█████╗  ██║   ██║██║   ██║█████╗  
+██╔══╝  ██║   ██║██║   ██║██╔══╝  
+███████╗╚██████╔╝╚██████╔╝███████╗
+╚══════╝ ╚═════╝  ╚═════╝ ╚══════╝
+Thank you for reviewing this portfolio
+</div>
