@@ -1,102 +1,127 @@
-How to Review a SOC 2 Report
+# How to Review a SOC 2 Report  
+_A practical guide for Vendor Risk and GRC Analysts_
 
-A SOC 2 report evaluates whether a service organization has effective controls for protecting customer data. Vendor Risk Analysts review SOC 2 reports to determine if a vendor can be approved, whether risks exist, and whether remediation is required.
-This guide explains the exact steps used to review a SOC 2 report in a real Vendor Risk workflow.
+A SOC 2 report is one of the most important documents used in Vendor Risk Management. It shows how well a service provider protects customer data and whether their controls actually work in real life—not just on paper.  
+This guide explains the exact steps I follow when reviewing a SOC 2 report as part of a real vendor due diligence workflow.
 
-Step One Understand the Report Type
+---
 
-SOC 2 reports come in two versions.
-Type One evaluates the design of controls at a point in time.
-Type Two evaluates both the design and the operating effectiveness of controls over a period of time.
+## 1. Start by Identifying the Report Type  
+Before anything else, confirm whether the report is **Type I** or **Type II**.
 
-Type Two provides better assurance and is preferred for vendor assessments.
+- **Type I** → A snapshot in time (design only)  
+- **Type II** → Controls tested over several months (design + operating effectiveness)
 
-Step Two Confirm the Scope
+Type II gives a much clearer picture of how mature and consistent a vendor’s security program really is, so it’s the preferred version for vendor risk assessments.
 
-Identify which systems and services the auditor evaluated.
-Scope determines whether the vendor assessed the exact product or environment your company will use.
+---
 
-Look for the following items
-• System description
-• Services included and excluded
-• Boundaries of the environment
-• Infrastructure components
-• Software components
-• People and processes in scope
+## 2. Confirm the Scope of the Audit  
+The scope tells you exactly what the auditors examined. This is critical because a vendor may only audit certain services, not their entire platform.
 
-A limited or unclear scope increases risk.
+Key things to look for:
+- System description  
+- Services included (and excluded)  
+- Defined system boundaries  
+- Infrastructure and software components  
+- Processes, teams, and functions in scope  
 
-Step Three Review the Trust Service Criteria
+If the scope doesn’t align with the product your organization will use, that’s a red flag.
 
-Verify which TSC categories the vendor included.
-Security is always included.
-Availability, Confidentiality, Processing Integrity, and Privacy are optional.
+---
 
-More TSC categories can provide broader assurance.
+## 3. Identify Which Trust Service Criteria (TSC) Are Covered  
+Every SOC 2 includes **Security**, but the other categories are optional:
 
-Step Four Evaluate the Control Activities
+- Security (always included)  
+- Availability  
+- Confidentiality  
+- Processing Integrity  
+- Privacy  
 
-Read how the vendor’s controls are designed.
-Look for maturity indicators such as
-• Access control and least privilege
-• Logging and monitoring
-• Change management
-• Encryption and key management
-• Vulnerability management and patching
-• Incident response readiness
-• Backup and recovery processes
+A broader set of TSC categories generally gives better insight into the vendor’s overall security posture.
 
-Controls should match the vendor’s risk level and the sensitivity of the data they handle.
+---
 
-Step Five Review the Auditor’s Testing and Results
+## 4. Review the Vendor’s Control Activities  
+This is where you start understanding *how* the vendor protects data. I evaluate each control area for maturity and alignment with best practices.
 
-In a Type Two report, auditors test controls for months.
-Focus on the following
-• Tests performed
-• Results of each test
-• Any exceptions or failures
-• Auditor comments
-• Root cause explanations
-• Severity of findings
+Common areas I focus on:
+- Access control & least privilege  
+- Logging, monitoring, and alerting  
+- Change management  
+- Encryption and key management  
+- Vulnerability management & patching  
+- Incident response preparedness  
+- Backup and recovery processes  
 
-Not every exception is critical, but repeated or systemic issues increase risk.
+At this stage, I’m asking:  
+**“Do these controls make sense for the type of data the vendor handles?”**
 
-Step Six Identify Exceptions and Required Remediation
+---
 
-Document any issues that impact your organization.
-Common exceptions involve
-• Incomplete access reviews
-• Delayed patching
-• Missing logs or monitoring gaps
-• Weak change management processes
-• Outdated policies
+## 5. Look at the Auditor’s Testing Procedures and Results  
+In Type II reports, auditors test controls over several months. I pay close attention to:
 
-Determine whether the vendor has provided a remediation plan.
-If not, remediation must be requested before approval.
+- How the auditors tested each control  
+- Whether any deviations were found  
+- Comments explaining how issues occurred  
+- Whether exceptions were isolated or repeated  
+- Any patterns that might suggest a process weakness  
 
-Step Seven Review Complementary User Entity Controls
+One-off issues aren’t unusual, but repeated exceptions often signal operational inconsistency.
 
-These are responsibilities your organization must perform for the vendor’s controls to remain effective.
-Examples include
-• Enforcing strong authentication for your users
-• Restricting access to vendor portals
-• Maintaining secure network configurations
-• Reviewing vendor access regularly
+---
 
-Your organization must implement these controls to avoid gaps.
+## 6. Identify Exceptions and Assess Their Risk  
+Most SOC 2 reports include a few exceptions. Not all of them are severe, but they still need to be understood.
 
-Step Eight Form Your Risk Conclusion
+Common types of exceptions include:
+- Access reviews completed late  
+- Patches not applied within expected timeframes  
+- Missing or incomplete logs  
+- Outdated documentation  
+- Gaps in change management processes  
 
-Summarize the findings in plain language.
-Include
-• Whether the SOC 2 is acceptable
-• Any risks discovered
-• Likelihood and impact ratings
-• Required remediation
-• Final approval or rejection guidance
+When I see an exception, I evaluate:
+- What caused it  
+- Whether it impacted security  
+- If it’s a recurring issue  
+- Whether the vendor already remediated it  
 
-Your conclusion is what leadership relies on to make decisions.
+If a remediation plan isn’t mentioned, that usually becomes a requirement before approval.
 
-Summary
+---
 
-Reviewing a SOC 2 report involves understanding the scope, evaluating the Trust Service Criteria, analyzing control effectiveness, reviewing exceptions, and forming a clear risk conclusion. This process helps determine whether a vendor’s security posture meets organizational requirements and whether additional remediation is needed before onboarding.
+## 7. Review Complementary User Entity Controls (CUECs)  
+These are controls **your organization** must perform for the vendor’s controls to be effective.
+
+Examples:
+- Enforcing strong authentication for accounts accessing the vendor  
+- Limiting permissions to only what your users need  
+- Securing your network configurations  
+- Reviewing vendor access regularly  
+
+Ignoring CUECs can create risk even if the vendor’s own controls are strong.
+
+---
+
+## 8. Form Your Final Risk Conclusion  
+After reviewing everything, I summarize the vendor’s risk posture in clear, plain language.
+
+My conclusion typically includes:
+- Whether the SOC 2 report is acceptable  
+- Key risks identified  
+- Likelihood and impact  
+- Required remediation items  
+- Overall vendor risk rating  
+- Whether the vendor is recommended for approval  
+
+This summary is what leadership and procurement rely on when deciding whether to move forward with the vendor.
+
+---
+
+## Summary  
+Reviewing a SOC 2 report isn’t just about reading an audit—it’s about understanding how a vendor operates, where their risks are, and whether they meet your organization’s security requirements.  
+A structured review process helps ensure vendors are evaluated consistently and that any gaps are addressed before onboarding.
+
