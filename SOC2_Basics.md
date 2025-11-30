@@ -166,5 +166,4 @@ This foundational knowledge demonstrates:
 
 ---
 
-**Last updated:** 11/29/2025
 **Author:** Logan McDermott  
