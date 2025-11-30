@@ -1,7 +1,7 @@
 # How to Review a SOC 2 Report  
 _A practical guide for Vendor Risk and GRC Analysts_
 
-A SOC 2 report is one of the most important documents used in Vendor Risk Management. It shows how well a service provider protects customer data and whether their controls actually work in real life—not just on paper.  
+A SOC 2 report is one of the most important documents used in Vendor Risk Management. It shows how well a service provider protects customer data and whether their controls actually work in real life, not just on paper.  
 This guide explains the exact steps I follow when reviewing a SOC 2 report as part of a real vendor due diligence workflow.
 
 ---
@@ -122,6 +122,6 @@ This summary is what leadership and procurement rely on when deciding whether to
 ---
 
 ## Summary  
-Reviewing a SOC 2 report isn’t just about reading an audit—it’s about understanding how a vendor operates, where their risks are, and whether they meet your organization’s security requirements.  
+Reviewing a SOC 2 report isn’t just about reading an audit, it’s about understanding how a vendor operates, where their risks are, and whether they meet your organization’s security requirements.  
 A structured review process helps ensure vendors are evaluated consistently and that any gaps are addressed before onboarding.
 
