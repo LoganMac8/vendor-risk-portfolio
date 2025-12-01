@@ -51,3 +51,89 @@ The severity of consequences if the risk occurs, based on:
 
 ## 🔢 2. Risk Score Formula
 
+Risk Score = Likelihood × Impact
+
+
+Score range: **1–25**
+
+Example:
+- Likelihood = 4  
+- Impact = 5  
+- Risk Score = 4 × 5 = **20 (High)**
+
+---
+
+## 🎯 3. Risk Level Thresholds
+
+Use the following thresholds to categorize vendor risk:
+
+| Risk Score | Risk Level | Meaning |
+|-----------|-------------|---------|
+| **1–5** | **Low** | Minimal risk; standard contract + basic due diligence |
+| **6–10** | **Medium** | Some concerns; review evidence and validate controls |
+| **11–16** | **High** | Requires deeper review; remediation or compensating controls needed |
+| **17–25** | **Critical** | Significant risk; executive approval, strong controls, or do not onboard |
+
+---
+
+## 📝 4. Examples of Risk Scoring
+
+### **Example 1 — Low Risk Vendor**
+- Vendor handles no sensitive data  
+- Uses strong controls  
+- No integrations  
+
+Likelihood: **1**  
+Impact: **2**  
+Risk Score: **2 (Low)**
+
+---
+
+### **Example 2 — Medium Risk Vendor**
+- SaaS tool used by internal team  
+- Stores internal-only data  
+- SOC 2 provided  
+
+Likelihood: **2**  
+Impact: **4**  
+Risk Score: **8 (Medium)**
+
+---
+
+### **Example 3 — High Risk Vendor**
+- Vendor handles customer PII  
+- Uses subservice providers  
+- Moderate control gaps  
+
+Likelihood: **3**  
+Impact: **5**  
+Risk Score: **15 (High)**
+
+---
+
+### **Example 4 — Critical Risk Vendor**
+- Vendor processes regulated data (PII/PCI/PHI)  
+- Weak controls or no SOC 2/ISO  
+- High dependency for core operations  
+
+Likelihood: **5**  
+Impact: **5**  
+Risk Score: **25 (Critical)**
+
+---
+
+## 🧭 5. How Risk Scores Drive Decisions
+
+| Risk Level | Required Actions |
+|------------|------------------|
+| **Low** | Standard review; approve with basic controls |
+| **Medium** | Validate SOC 2/ISO; review questionnaire responses |
+| **High** | Require remediation; escalate to security leadership |
+| **Critical** | Executive approval needed; often not recommended |
+
+---
+
+## ✔ Final Summary
+This 1–25 scoring model provides a simple, repeatable way to evaluate vendor risk.  
+It ensures consistency across assessments and aligns with common frameworks used in TPRM programs.
+
