@@ -1,132 +1,144 @@
-Vendor Intake Form
+# Vendor Intake Form  
+_Initial screening form for new third-party vendors_
 
-This form collects the initial information required to begin a Vendor Risk Assessment. Completion of this intake establishes the scope of the review, the vendor’s risk profile, and whether a security assessment is required.
+This Vendor Intake Form collects the essential information needed to determine inherent risk, vendor tiering, and the level of due diligence required before onboarding.  
+It is designed for use during early conversations with business owners, procurement, or the vendor themselves.
 
-Section One Vendor Information
+---
 
-Vendor Name
-Provide the legal name of the vendor or service provider.
+## 🏷️ 1. Vendor Information
+**1. Vendor Name:**  
+**2. Product / Service Name:**  
+**3. Website / Portal URL:**  
+**4. Primary Contact Name:**  
+**5. Contact Email:**  
+**6. Contact Role/Title:**  
+**7. Company Headquarters Location:**  
 
-Primary Contact Name
-Include the individual responsible for coordinating security questions.
+---
 
-Contact Email
-Provide a monitored email address for follow up communication.
+## 🧩 2. How the Vendor Will Be Used
+**8. Describe the business purpose for using this vendor:**  
+(What problem are they solving? What team is requesting them?)  
 
-Contact Phone Number
-Optional but helpful for incident or operational escalation.
+**9. Which internal team or department will use this vendor?**  
+(e.g., Marketing, HR, Finance, IT, Security, Engineering)
 
-Company Website
-Provide the vendor’s official website or documentation portal.
+**10. Will the vendor interact with customers or customer-facing systems? (Yes/No)**
 
-Section Two Description of Services
+---
 
-Service Description
-Explain what the vendor does and how your organization will use the service.
+## 🔐 3. Data Handling & Access
+These questions determine inherent data risk.
 
-Business Justification
-Describe why the service is needed and what business problem it solves.
+**11. Will the vendor store, process, or transmit any company data? (Yes/No)**  
+If yes, describe the types of data involved:  
+- Public  
+- Internal  
+- Confidential  
+- Personal Data / PII  
+- Financial Data  
+- Source Code  
+- Customer Data  
 
-Data Flow Description
-Explain how data will move between systems. Include whether data is stored, processed, or transmitted.
+**12. Will the vendor have access to internal systems or networks? (Yes/No)**  
+If yes, specify:  
+- SSO  
+- Admin access  
+- API access  
+- VPN access  
+- Database access  
 
-Integration Method
-Specify the integration type such as API, user interface, cloud platform, or file transfer.
+**13. Will the vendor have access to employee or customer PII? (Yes/No)**  
+If yes, describe what type of PII.
 
-Section Three Data Classification
+---
 
-Type of Data Shared
-Select all relevant categories
-Internal data
-Confidential data
-Customer data
-Personal data
-Regulated data
+## ☁️ 4. Cloud & Hosting Details
+**14. Is the product cloud-based (SaaS) or installed on-premise?**  
+- SaaS  
+- PaaS  
+- IaaS  
+- On-Prem  
+- Hybrid  
 
-Volume of Data Shared
-Small
-Medium
-Large
+**15. If SaaS, which cloud provider does the vendor use?**  
+- AWS  
+- Azure  
+- GCP  
+- Other  
 
-Retention Requirements
-Explain how long the vendor will store data and why.
+**16. Will any data be stored outside the United States? (Yes/No)**  
+If yes, specify countries.
 
-Section Four Technical and Operational Impact
+---
 
-System Dependency Level
-Low dependency
-Moderate dependency
-High dependency
-Mission critical dependency
+## 🔗 5. Subservice Providers & Integrations
+**17. Does the vendor rely on subcontractors or subprocessors to deliver their service? (Yes/No)**  
+If yes, request a list.
 
-Service Availability Requirement
-Standard availability
-Elevated availability
-Always available requirement
+**18. Does this vendor integrate with any existing systems you use? (Yes/No)**  
+If yes, describe the integration points.
 
-Potential Impact of Outage
-Minimal impact
-Operational delay
-Significant operational disruption
-Severe business impact
+---
 
-Section Five Security and Compliance Information
+## 🔒 6. Security Documentation
+**19. Which of the following documents can the vendor provide?**
 
-Does the vendor process or store sensitive or confidential data
-Yes or No
+- SOC 2 Type II  
+- SOC 3  
+- ISO 27001 Certificate  
+- Penetration Test Summary  
+- Security Whitepaper  
+- Incident Response Policy  
+- Data Flow Diagram  
+- Subprocessor List  
 
-Does the vendor access internal systems
-Yes or No
+---
 
-Does the vendor support single sign on or multi factor authentication
-Yes or No
+## ⚖️ 7. Compliance & Privacy
+**20. Does the vendor process data regulated under any frameworks?**  
+(Select all that apply)
 
-Does the vendor provide a SOC Two report
-Yes or No
+- GDPR  
+- CCPA  
+- PCI DSS  
+- HIPAA  
+- FedRAMP  
+- None  
 
-Does the vendor maintain ISO Twenty Seven Thousand One certification
-Yes or No
+**21. Does the vendor support Data Processing Agreements (DPA)? (Yes/No)**
 
-Does the vendor complete penetration testing annually
-Yes or No
+---
 
-Section Six Risk Pre Screening
+## 🧱 8. Business & Operational Risk
+**22. What is the vendor’s criticality to your business operations?**  
+- Low — nice to have  
+- Medium — important, but not essential  
+- High — core business function  
+- Critical — required for business continuity  
 
-This section determines whether a full Vendor Risk Assessment is required.
+**23. What is the expected vendor contract term?**  
+- Monthly  
+- Annual  
+- Multi-year  
 
-A full assessment is required if any of the following apply
+**24. Estimated annual cost or spend range?**
 
-Vendor processes confidential or sensitive data
-Vendor provides critical business functions
-Vendor integrates with internal systems
-Vendor stores customer data
-Vendor has privileged access
-Vendor handles regulated data such as PCI HIPAA or financial information
+---
 
-If none of these apply, the vendor may be classified as a low risk service provider with minimal review required.
+## 📝 9. Final Notes
+**25. Additional comments, concerns, or context:**  
+(e.g., alternatives evaluated, urgency, expected go-live date)
 
-Section Seven Initial Risk Tier Recommendation
+---
 
-Initial tier based on intake responses
+## 🟩 Next Steps (For Internal Use)
+Based on this intake form, the Vendor Risk team will determine:
 
-Low Risk Vendor
-Limited or no sensitive data
-Minimal operational dependency
+- Inherent risk rating  
+- Vendor tier (Low, Moderate, High, Critical)  
+- Required evidence (SOC 2, ISO, questionnaires, etc.)  
+- Whether a full Vendor Security Assessment is required  
+- Contractual language needed (DPA, SLA, BAA, etc.)  
 
-Medium Risk Vendor
-Some sensitive data or moderate operational impact
-
-High Risk Vendor
-Sensitive data
-Operational dependency
-Security evidence required
-
-Critical Vendor
-Mission critical function
-High regulatory or financial impact
-
-This initial tier is validated during the full security assessment.
-
-Summary
-
-The Vendor Intake Form is the first step in the Vendor Risk Management lifecycle. It controls the review process, establishes risk expectations, and determines the level of assessment required. Intake accuracy ensures efficient and consistent onboarding.
