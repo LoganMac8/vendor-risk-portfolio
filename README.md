@@ -1,204 +1,126 @@
-# Third-Party Risk Analyst Portfolio  
-### Security & Third-Party Risk Assessment — Cloudflare  
-**By Logan McDermott**
+# Logan McDermott  
+### Third-Party Risk Analyst • Vendor Security • GRC Analysis
 
-This portfolio demonstrates my practical ability to perform end-to-end Third-Party Risk Management (TPRM) activities, including vendor onboarding, due diligence, SOC 2 analysis, risk scoring, policy development, and executive reporting.  
-It showcases the types of deliverables I would produce as a Third-Party Risk Analyst within a GRC or cybersecurity program.
-
----
-
-# 1. Purpose of This Portfolio
-This repository documents my workflow, methodology, and completed assessments while learning and practicing real-world TPRM processes.  
-Every artifact mirrors what an enterprise security or compliance team expects during a formal vendor review.
-
-My goals with this portfolio:
-- Build hands-on experience using real frameworks (SOC 2, TSC, ISO, TPRM governance)
-- Document a complete vendor assessment cycle from intake to approval
-- Demonstrate clear, professional communication through structured deliverables
-- Present work in a format that aligns with consulting and enterprise GRC standards
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/logan-mcdermott-487710221/)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)](https://github.com/LoganMac8/vendor-risk-portfolio)
+[![Status](https://img.shields.io/badge/Actively%20Seeking-GRC%20%7C%20TPRM%20Roles-brightgreen)]()
 
 ---
 
-# 2. Featured Assessment: Cloudflare (2024)
-This assessment is based entirely on **public Cloudflare documentation** and **non-confidential SOC 2 summaries**, following industry best practices for security reviews.
+## 📂 Vendor Risk Portfolio  
+A complete, job-ready Vendor Risk and GRC portfolio demonstrating the ability to analyze SOC 2 reports, assess vendors, document risk, design workflows, create policies, and produce real deliverables aligned with modern security and compliance teams.
 
-### Included Analysis Components:
-- **Inherent risk evaluation**
-- **25-question vendor security questionnaire**
-- **Likelihood × Impact scoring model**
-- **High-level SOC 2 review (safe, paraphrased)**
-- **Final risk determination & approval recommendation**
+The following documents represent a full end-to-end Third-Party Risk Management (TPRM) workflow.
 
-The full assessment bundle (PDF) is located in the `/portfolio` directory.
+### 1. Cover Page  
+A clean introduction and navigation guide.  
+**Link:** `portfolio/Cover_Page.pdf`
 
----
+### 2. Portfolio Summary  
+High-level summary designed for recruiters and hiring teams.  
+**Link:** `portfolio/Portfolio_Summary.pdf`
 
-# 3. Repository Structure
+### 3. TPRM Methodology  
+Formal methodology describing vendor tiering, evidence collection, control analysis, risk scoring, and remediation expectations.  
+**Link:** `portfolio/Methodology.pdf`
 
-vendor-risk-portfolio/
-│
-├── docs/
-│ ├── SOC2-Basics.md
-│ ├── SOC2-Trust-Criteria-Explained.md
-│ ├── SOC2_Report_Analysis.md
-│ ├── Vendor-Related-ISO-Controls.md
-│ └── What-a-Vendor-Risk-Analyst-Does.md
-│
-├── risk-scoring/
-│ ├── Vendor-Risk-Scoring-Explained.md
-│ └── Risk-Heatmap.png
-│
-├── questionnaires/
-│ ├── Vendor-Security-Questionnaire.md
-│ └── Vendor-Intake-Form.md
-│
-├── portfolio/
-│ ├── Third-Party-Risk-Assessment-Cloudflare.pdf
-│ ├── SOC2-Analysis.pdf
-│ ├── Vendor-Policy-Suite.pdf
-│ ├── Workflow.pdf
-│ ├── Methodology.pdf
-│ └── Portfolio-Summary.pdf
-│
-├── learning-journal/
-│ ├── day_one/
-│ ├── day_two/
-│ ├── day_three/
-│ ├── day_four/
-│ └── day_five/ (continuing through Day Ten)
-│
-└── README.md
+### 4. TPRM Workflow  
+A structured, step-by-step workflow from vendor intake to ongoing monitoring.  
+**Link:** `portfolio/Workflow.pdf`
 
+### 5. SOC 2 Analysis  
+A professional SOC 2 Type II report analysis including scope, controls reviewed, strengths, gaps, and a clear risk conclusion.  
+**Link:** `portfolio/SOC2_Analysis.pdf`
 
-Each folder represents a core component of the TPRM lifecycle.
+### 6. Cloudflare Vendor Assessment  
+A complete vendor assessment with questionnaire responses, service analysis, trust criteria mapping, and approval recommendation.  
+**Link:** `portfolio/Cloudflare_Assessment.pdf`
+
+### 7. Vendor Policy Suite  
+A set of corporate-style policies: Supplier Security, TPRM, Data Handling, and Access Control.  
+**Link:** `portfolio/Policy_Suite.pdf`
 
 ---
 
-# 4. Key Deliverables & What They Demonstrate
+## 📘 Supporting Documentation
 
-### **1. Vendor Risk Assessment (Cloudflare)**
-A full external vendor review modeled after real-world assessments:
-- Executive summary  
-- Security posture evaluation  
-- High-level SOC 2 analysis  
-- Risk scoring  
-- Findings & recommendations  
-- Final approval decision  
+### SOC 2 and Trust Services  
+• `docs/SOC2-Basics.md`  
+• `docs/SOC2-Trust-Criteria-Explained.md`  
+• `docs/SOC2_Report_Analysis.md`
 
-This shows my ability to communicate complex security topics clearly and concisely.
+### ISO and Control Frameworks  
+• `docs/Vendor-Related-ISO-Controls.md`
 
----
+### Understanding the Role  
+• `docs/What-a-Vendor-Risk-Analyst-Does.md`
 
-### **2. SOC 2 Report Analysis**
-High-level analysis demonstrating:
-- Understanding of Trust Services Criteria  
-- Ability to interpret audit outcomes safely  
-- Identification of themes & risk considerations  
+### Risk Scoring and Visuals  
+• `risk-scoring/Vendor-Risk-Scoring-Explained.md`  
+• `risk-scoring/Risk-Heatmap.png`
 
-This shows readiness for SOC-based reviews.
+### Vendor Questionnaires  
+• `questionnaires/Vendor-Security-Questionnaire.md`
 
----
-
-### **3. Vendor Security Questionnaire (25 Questions)**
-Covers:
-- Access control  
-- Monitoring  
-- Encryption  
-- Incident response  
-- Subprocessors  
-- Cloud security  
-- Change management  
-
-This demonstrates understanding of due diligence documentation and evidence gathering.
+### Learning Journal (10-Day Vendor Risk Blitz)  
+• `learning-journal/day_one/`  
+• `learning-journal/day_two/`  
+(continues through Day Ten)
 
 ---
 
-### **4. Risk Scoring Model**
-A Likelihood × Impact scoring framework (1–25):
-- Scoring criteria  
-- Thresholds (Low / Medium / High / Critical)  
-- Example scenarios  
-- Risk-based decision guidance  
+## 🧠 Skills Demonstrated
 
-This demonstrates applied risk thinking and analytical skills.
+### Framework Knowledge  
+• SOC 2 Type I & II  
+• ISO 27001 Annex A  
+• Trust Services Criteria  
+• NIST fundamentals  
 
----
+### Vendor Risk & GRC  
+• Vendor intake and classification  
+• Due diligence questionnaires  
+• Evidence review and control evaluation  
+• SOC report analysis  
+• Risk scoring and heatmaps  
+• Remediation planning  
+• Continuous vendor monitoring  
+• Cross-functional collaboration with Procurement, Legal, and Security  
 
-### **5. Policy Suite**
-Four professionally structured policies:
-- Supplier Security Policy  
-- Third-Party Risk Management Policy  
-- Data Handling Policy  
-- Access Control Policy  
+### Technical Understanding  
+• MFA & access control governance  
+• Logging & monitoring fundamentals  
+• Encryption standards  
+• Vulnerability & patch management  
+• Incident response lifecycle  
+• Cloud shared responsibility (AWS, Cloudflare, SaaS)  
 
-These mirror the internal documents used by security and compliance teams.
-
----
-
-### **6. Workflow Diagram**
-Shows my understanding of the complete TPRM lifecycle:
-1. Vendor Intake  
-2. Due Diligence  
-3. Evidence Review  
-4. Risk Scoring  
-5. Remediation  
-6. Approval  
-
-This demonstrates process awareness and systems thinking.
-
----
-
-### **7. Methodology: How I Perform a Vendor Assessment**
-A clear one-page explanation of my personal approach.  
-This is often one of the strongest signals to hiring managers.
+### Professional Strengths  
+• Clear communication  
+• Analytical decision-making  
+• Documentation clarity  
+• Operational discipline  
+• Stakeholder awareness  
+• High attention to detail  
 
 ---
 
-# 5. Skills Demonstrated
+## 🎯 Purpose of This Portfolio
+This portfolio reflects the quality of work expected in modern GRC and Vendor Risk roles.  
+Each deliverable is structured to mirror the documentation generated by real security, compliance, and procurement teams.
 
-## **Security Frameworks**
-- SOC 2 Type I & II  
-- Trust Service Criteria  
-- ISO 27001 concepts  
-- Shared Responsibility Model  
-
-## **Risk & Compliance**
-- Third-party due diligence  
-- Evidence review  
-- Exceptions analysis  
-- Risk scoring & tiering  
-- Control evaluation  
-- Policy interpretation  
-
-## **Cybersecurity Fundamentals**
-- Access control (MFA, RBAC, least privilege)  
-- Endpoint & network fundamentals  
-- Cloud security basics (AWS, SaaS, Zero Trust)  
-- Logging & monitoring  
-- Encryption  
-
-## **Soft Skills**
-- Clear and professional communication  
-- Analytical thinking  
-- Structured reporting  
-- Stakeholder awareness  
-- Documentation quality  
-- Consistency and follow-through  
+The focus is on clarity, practical application, and the ability to communicate risk to both technical and non-technical audiences.
 
 ---
 
-# 6. About Me
-My goal is to contribute to a security or GRC team as a **Third-Party Risk Analyst**, where I can help organizations evaluate vendor security, reduce supply chain risk, and support compliance and governance efforts.
+## 📫 Contact
 
-I’m actively learning, practicing, and building real assessments to refine my craft.
-
----
-
-# 7. Contact
 **Logan McDermott**  
-Open to Third-Party Risk Analyst / Vendor Risk / GRC Analyst roles  
-Pnwliving@hotmail.com
+Third-Party Risk Analyst | Vendor Risk | GRC Analyst  
 
-If you’d like to discuss my work or request additional samples, feel free to reach out.
+If you would like to discuss my work, request additional samples, or learn more about my experience:  
+**LinkedIn:** https://www.linkedin.com/in/logan-mcdermott-487710221/  
+**GitHub:** https://github.com/LoganMac8/vendor-risk-portfolio
+
 
 
