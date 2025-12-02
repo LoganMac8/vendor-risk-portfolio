@@ -1,122 +1,115 @@
 # What a Vendor Risk Analyst Does  
-_A practical explanation of the role, written from experience_
+A practical explanation of the role
 
-Vendor Risk Analysts play a key part in protecting an organization from security, privacy, and operational risks introduced by third-party vendors. Whether a company uses a cloud service, billing provider, software platform, or specialized tool, someone has to evaluate that vendor’s security posture before any data is shared.
+Vendor Risk Analysts help protect an organization from security, privacy, and operational risks introduced by third party vendors. Any time a company uses a cloud service, payment provider, software platform, or niche tool, someone needs to evaluate that vendor's security posture before data is shared.
 
-This overview explains what Vendor Risk Analysts actually do day-to-day and how they help keep organizations safe.
+This overview explains what Vendor Risk Analysts typically do day to day and how they contribute to a stronger risk posture.
 
----
+## 1. Review Vendors Before Approval
 
-## 📌 1. Review Vendors Before They’re Approved  
-Before a company signs a contract, Vendor Risk Analysts perform due diligence to determine whether the vendor is safe to use.
+Before a contract is signed, Vendor Risk Analysts perform due diligence to determine whether a vendor is safe to use.
 
-This usually includes reviewing:  
+Typical evidence includes:
+
 - SOC 2 reports  
 - ISO 27001 certifications  
 - Security questionnaires  
-- Pen test summaries  
+- Penetration test summaries  
 - Architecture diagrams  
 - Data flow explanations  
 
-The goal is to understand **how the vendor protects data** and whether they meet the organization’s minimum security requirements.
+The goal is to understand how the vendor protects data and whether they meet the organization's minimum security requirements.
 
----
+## 2. Identify Risks and Gaps
 
-## 📌 2. Identify Risks and Gaps  
-Once evidence is collected, analysts look for risks such as:  
-- Weak access control practices  
-- Missing or incomplete logging  
+After gathering evidence, the analyst reviews it for potential risks, such as:
+
+- Weak access control  
+- Limited or missing logging  
 - Delayed patching  
-- Unclear data retention processes  
+- Unclear data retention or deletion processes  
 - Lack of MFA  
 - Outdated policies  
-- Dependency on risky subservice providers  
+- Heavy dependence on high risk subservice providers  
 
-Analysts document these findings and assess their **likelihood** and **impact** to form a clear risk rating.
+These findings are documented along with an assessment of likelihood and impact to form a clear risk rating.
 
----
+## 3. Request Remediation When Needed
 
-## 📌 3. Request Remediation When Needed  
-If the vendor has gaps that could impact security, the analyst recommends or requests specific actions, such as:  
+If gaps are identified, the analyst recommends or requests specific improvements. Examples include:
+
 - Enabling MFA  
 - Encrypting data at rest  
-- Completing overdue access reviews  
-- Updating policies  
-- Improving monitoring coverage  
+- Completing overdue access or permissions reviews  
+- Updating or formalizing security policies  
+- Expanding monitoring coverage  
 
-The goal isn’t to reject vendors — it’s to help them meet security standards.
+The goal is not to reject every vendor with a gap, but to help them come into alignment with the organization's standards.
 
----
+## 4. Communicate Risk in Plain Language
 
-## 📌 4. Explain Security Risks in Plain Language  
-A big part of the job is summarizing risks in a way that non-technical stakeholders can understand.  
-Vendor Risk Analysts often communicate with:  
-- Procurement teams  
+A large part of the role is explaining security risks in a way that non technical stakeholders can understand.
+
+Vendor Risk Analysts often work with:
+
+- Procurement  
 - Legal  
-- Engineering  
 - Business owners  
+- Engineering  
 - Leadership  
 
-These teams rely on the analyst’s assessment to make final decisions.
+These groups rely on the analyst's written summaries and recommendations to make final decisions. Good Vendor Risk Analysts can translate technical findings into clear, business friendly language.
 
-Good Vendor Risk Analysts can translate technical findings into **clear, actionable recommendations**.
+## 5. Monitor High Risk Vendors Over Time
 
----
+Review does not end once a vendor is approved. Vendors are re evaluated periodically, especially those classified as high risk.
 
-## 📌 5. Monitor High-Risk Vendors Over Time  
-The work doesn’t stop after vendor approval.  
-Vendors are re-evaluated on a regular basis (often annually or semi-annually).
+Ongoing monitoring can include:
 
-Monitoring includes:  
 - Tracking remediation progress  
-- Reviewing updated SOC 2 or ISO certifications  
-- Checking for changes in services, systems, or data usage  
-- Watching for incidents or breaches  
+- Reviewing updated SOC 2 or ISO reports  
+- Monitoring for incidents or public breach notifications  
+- Reviewing scope changes or new services  
 
-This helps catch new risks early and ensures the vendor continues to meet security expectations.
+This ongoing view helps catch new risks early and ensures the vendor continues to meet expectations.
 
----
+## 6. Maintain Vendor Risk Documentation
 
-## 📌 6. Maintain Vendor Risk Documentation  
-To keep the program organized and audit-ready, analysts maintain consistent records, including:  
+Analysts maintain organized and audit ready records, including:
+
 - Risk assessments  
 - Due diligence notes  
-- Vendor questionnaires  
+- Questionnaires and responses  
 - Approval or rejection decisions  
 - Remediation tracking  
-- Vendor tiering information  
+- Vendor tiering or criticality classifications  
 
-Good documentation is essential for internal audits, external auditors, and operational transparency.
+Good documentation is important for internal audits, external reviews, and general transparency.
 
----
+## 7. Support and Improve the Third Party Risk Program
 
-## 📌 7. Support the Overall Third-Party Risk Program  
-Vendor Risk Analysts also help build and improve the processes used for third-party risk management by contributing to:  
+Vendor Risk Analysts often help refine and scale the overall program by contributing to:
+
 - Policies and procedures  
-- Vendor intake workflows  
+- Vendor intake forms and workflows  
 - Questionnaires and scoring models  
-- Risk heatmaps  
-- Contract language templates  
+- Risk dashboards and heatmaps  
+- Contract language guidance for security requirements  
 - Internal training materials  
 
-This ensures the program matures over time and scales as the company grows.
+As the company grows, these processes need adjustment and improvement, and analysts are often close enough to the work to see what needs to change.
 
----
+## Why This Role Matters
 
-## 💡 Why This Role Matters  
-Organizations depend heavily on third-party vendors. If one of those vendors experiences a breach, outage, or data leak, it can directly impact the business.
+Organizations depend heavily on third party vendors. If a critical vendor has a security incident, outage, or data leak, the impact can be direct and significant.
 
-Vendor Risk Analysts help prevent:  
+Vendor Risk Analysts help reduce the chance and impact of:
+
 - Data exposure  
 - Downtime  
-- Compliance violations  
+- Compliance failures  
 - Financial loss  
-- Reputational damage  
+- Reputational harm  
 
-It’s a role that blends technical knowledge, critical thinking, communication skills, and a strong understanding of security frameworks.
-
----
-
-## Summary  
-Vendor Risk Analysts ensure that companies make safe and informed decisions about the vendors they rely on. By reviewing security documentation, identifying risks, recommending remediation, and monitoring vendors over time, analysts play a key role in maintaining a strong security posture and reducing supply chain risk.
+By reviewing security documentation, identifying risks, recommending remediation, and continuously monitoring vendors, Vendor Risk Analysts play a central role in maintaining a strong overall security posture and managing supply chain risk.
 
