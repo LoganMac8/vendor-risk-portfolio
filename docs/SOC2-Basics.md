@@ -1,168 +1,132 @@
-# SOC 2 Basics — A Practical Guide for Vendor Risk Analysts
+# SOC 2 Basics: A Practical Guide for Vendor Risk Analysts
 
-SOC 2 (System and Organization Controls 2) is one of the most widely used security frameworks for evaluating whether a vendor can securely handle customer data. Vendor Risk Analysts rely heavily on SOC 2 reports to understand a vendor’s control environment, uncover weaknesses, and determine risk levels during due diligence.
+SOC 2 (System and Organization Controls 2) is one of the most widely used security frameworks for evaluating whether a vendor can securely handle customer data. Vendor Risk Analysts rely heavily on SOC 2 reports to understand a vendor's control environment, uncover weaknesses, and determine risk levels during due diligence.
 
-This document summarizes the essential concepts every Vendor Risk Analyst must know.
+This document summarizes the core concepts every Vendor Risk Analyst should understand.
 
----
+## What Is SOC 2
 
-## 📌 What Is SOC 2?
-SOC 2 is an attestation framework developed by the AICPA that evaluates how well an organization safeguards data based on the Trust Service Criteria (TSC).  
-It focuses on **controls**, not financial accuracy, and is commonly required when onboarding SaaS, cloud, or third-party service providers.
+SOC 2 is an attestation framework developed by the AICPA that evaluates how well an organization safeguards data based on the Trust Services Criteria (TSC). It focuses on controls, not financial accuracy, and is commonly required when onboarding SaaS, cloud, or third party service providers.
 
----
+## Type I vs Type II
 
-## 📌 Type I vs. Type II (Critical Interview Question)
+This is a common interview topic.
 
-### **SOC 2 Type I**
-Evaluates whether controls are **designed effectively** at a single point in time.
+### SOC 2 Type I  
+Evaluates whether controls are designed effectively at a single point in time.  
+- Snapshot style audit  
+- Tests control design only  
+- Often used by early stage companies  
 
-- Snapshot audit  
-- Tests design only (not long-term performance)  
-- Often used by early-stage companies  
+### SOC 2 Type II  
+Evaluates whether controls are both designed and operating effectively over a period of time, typically 3 to 12 months.  
+- Uses real world evidence over an extended period  
+- Demonstrates that controls work in practice, not just on paper  
+- Most valuable format for Vendor Risk assessments  
+- Preferred by most mid sized and large enterprises  
 
-### **SOC 2 Type II**
-Evaluates whether controls are both **designed** and **operating effectively** over a period (typically 3–12 months).
+A concise way to describe the difference: Type II carries more weight because it shows that controls are consistently operating, not just documented.
 
-- Covers real-world evidence  
-- Demonstrates sustained security practices  
-- **Most valuable for Vendor Risk assessments**  
-- Preferred by nearly all enterprises
-
-**Interview Tip:**  
-> “Type II holds more weight because it proves controls are consistently working, not just documented.”
-
----
-
-## 📌 Why SOC 2 Matters in Vendor Risk Management
+## Why SOC 2 Matters in Vendor Risk Management
 
 Vendor Risk Analysts use SOC 2 reports to:
 
-- Validate a vendor’s security posture  
-- Confirm core controls like access control, MFA, logging, and encryption  
-- Identify audit exceptions and evaluate their risk impact  
-- Determine the vendor’s risk tier (Low/Medium/High)  
-- Support go/no-go decisions in vendor onboarding  
-- Ensure third parties meet internal and regulatory requirements  
+- Validate a vendor's overall security posture  
+- Confirm core controls such as access control, MFA, logging, and encryption  
+- Identify audit exceptions and evaluate their impact  
+- Help determine the vendor's risk tier (low, medium, high)  
+- Support go or no go decisions in onboarding  
+- Confirm that third parties meet internal and regulatory expectations  
 
----
+## Trust Services Criteria (TSC) Overview
 
-## 📌 Trust Service Criteria (TSC) Overview
+The SOC 2 framework is based on five categories. Security is mandatory. The other four are included when relevant to the vendor's services.
 
-The SOC 2 framework is built around five categories.  
-**Security** is mandatory — the other four are optional based on the vendor’s services.
+1. Security (Common Criteria)  
+   Protects systems and data from unauthorized access.  
+   Examples: MFA, logging and monitoring, access control, firewalls.
 
-### **1. Security (Common Criteria) — REQUIRED**
-Protects systems and data from unauthorized access.  
-Examples:  
-- MFA  
-- Logging and monitoring  
-- Access control  
-- Firewalls  
+2. Availability  
+   Focuses on system reliability and uptime commitments.  
+   Examples: uptime monitoring, redundancy, incident response.
 
-### **2. Availability**
-Ensures systems remain reliable and meet uptime commitments.  
-Examples:  
-- Uptime monitoring  
-- Redundancy  
-- Incident response  
+3. Processing Integrity  
+   Ensures data is processed accurately, completely, and on time.  
+   Examples: input validation, error detection, reconciliation.
 
-### **3. Processing Integrity**
-Ensures data is processed accurately, completely, and on time.  
-Examples:  
-- Input validation  
-- Error detection  
+4. Confidentiality  
+   Protects sensitive information from inappropriate disclosure.  
+   Examples: encryption in transit and at rest, data classification, role based access.
 
-### **4. Confidentiality**
-Protects sensitive information from inappropriate disclosure.  
-Examples:  
-- Encryption at rest/in transit  
-- Data classification  
-- Role-based access
+5. Privacy  
+   Focuses on personal data and how it is collected, used, stored, and deleted.  
+   Examples: data retention, consent mechanisms, privacy notices.
 
-### **5. Privacy**
-Protects personal data according to commitments and regulations.  
-Examples:  
-- Data retention  
-- Consent mechanisms  
-- Privacy notices  
+## Core Components of a SOC 2 Report
 
----
+Sections that Vendor Risk Analysts typically care about most:
 
-## 📌 Core Components of a SOC 2 Report
+1. Management Assertion  
+   The vendor's statement describing the system and its controls.
 
-The sections Vendor Risk Analysts care about most:
+2. Auditor's Opinion  
+   The auditor's conclusion, which may be:  
+   - Unqualified (clean)  
+   - Qualified (issues noted)  
+   - Adverse (major failures)  
+   - Disclaimer (insufficient evidence)
 
-### **1. Management Assertion**
-Vendor’s internal statement about the system and controls.
+3. System Description  
+   Explains what is in scope, system boundaries, services provided, infrastructure, and key processes.
 
-### **2. Auditor’s Opinion**
-The auditor’s conclusion:  
-- Unqualified (clean)  
-- Qualified (issues)  
-- Adverse (major failures)  
-- Disclaimer (insufficient evidence)
+4. Controls and Testing  
+   Lists the vendor's controls, the auditor's testing procedures, and the results.
 
-### **3. System Description**
-Critical for understanding:  
-- What is in scope  
-- Boundaries of the system  
-- Services provided  
-- Infrastructure and processes  
+5. Exceptions and Findings  
+   Describes control failures or deviations. Analysts evaluate severity, root cause, impact, and remediation.
 
-### **4. Controls & Testing**
-Lists the vendor’s controls, the auditor’s test procedures, and the results.
+6. Subservice Organizations  
+   Lists other companies the vendor relies on (for example cloud providers). These introduce dependency risk.
 
-### **5. Exceptions & Findings**
-Where problems are identified.  
-Vendor Risk Analysts evaluate the **severity, root cause, impact, and remediation**.
+## What Vendor Risk Analysts Look For in a SOC 2
 
-### **6. Subservice Organizations**
-Other companies the vendor relies on (e.g., AWS, Okta).  
-Important for determining **dependency risk**.
+Common areas of focus:
 
----
+- Missing or weak MFA  
+- Poor access control practices  
+- Lack of logging or alerting  
+- Encryption gaps  
+- Incident response coverage  
+- Number and nature of exceptions  
+- Reliance on subservice organizations  
+- Outdated or inconsistent policies  
+- Incomplete monitoring or evidence  
 
-## 📌 What Vendor Risk Analysts Look For in a SOC 2
+A structured approach to reviewing these items is critical for forming a well supported risk conclusion.
 
-- Missing MFA  
-- Weak access control  
-- No logging or alerting  
-- Encryption failures  
-- Incident response gaps  
-- High number of exceptions  
-- Reliance on subservice organizations without monitoring  
-- Outdated policies  
-- Incomplete monitoring evidence  
+## How to Use SOC 2 in Due Diligence
 
-A clear, structured approach to identifying these issues is crucial for making informed risk decisions.
+A practical workflow:
 
----
+1. Confirm that the report is Type II when possible.  
+2. Check that the audit period is recent, ideally within the last 12 months.  
+3. Review the scope to make sure relevant systems and services are included.  
+4. Read the auditor's opinion for any major concerns.  
+5. Review controls and test results, paying attention to failures and exceptions.  
+6. Assess the severity of any gaps and their potential impact on your organization.  
+7. Document risks and recommended remediation steps.  
+8. Feed the results into your vendor scoring and approval process.
 
-## 📌 How to Use SOC 2 in Due Diligence (Your Workflow)
+## Why This Matters in Interviews
 
-1. Confirm the report is **Type II** (preferred).  
-2. Check the **audit period** for freshness (last 12 months ideal).  
-3. Review the **scope** to ensure relevant systems are included.  
-4. Analyze the **auditor’s opinion** for major issues.  
-5. Review **controls and test results** for failures.  
-6. Assess **exceptions and gaps** and determine risk severity.  
-7. Document risks and recommended remediation.  
-8. Assign a **risk score** in your vendor scoring model.
+Being able to read, interpret, and summarize a SOC 2 report is one of the top skills hiring managers test for in Vendor Risk, TPRM, and GRC roles. It shows:
 
----
-
-## 📌 Final Notes for Interviewers and Recruiters
-
-Being able to read, interpret, and summarize a SOC 2 report is one of the **top skills** hiring managers test for in Vendor Risk, TPRM, and GRC roles.
-
-This foundational knowledge demonstrates:
-
-- Audit comprehension  
 - Understanding of control effectiveness  
-- Awareness of risk impact  
+- Awareness of risk and impact  
 - Ability to perform due diligence  
-- Strong analytical skills  
+- Strong analytical and communication skills  
+
+Author: Logan McDermott
 
 ---
 
