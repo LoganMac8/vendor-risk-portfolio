@@ -1,182 +1,160 @@
-# SOC 2 Trust Service Criteria — Explained for Vendor Risk Analysts
+# SOC 2 Trust Services Criteria Explained for Vendor Risk Analysts
 
-The Trust Service Criteria (TSC) are the backbone of SOC 2. They define the security principles auditors evaluate when determining whether a vendor protects customer data effectively.  
-This guide breaks down each criterion in clear, practical terms with examples, risks, and how Vendor Risk Analysts should use them.
+The Trust Services Criteria (TSC) are the backbone of SOC 2. They define the security principles auditors use to evaluate whether a vendor protects customer data effectively. This guide breaks down each criterion in practical terms with examples, typical risks, and how a Vendor Risk Analyst can apply them.
 
----
+## 1. Security (Common Criteria)
 
-# 🔐 1. Security (Common Criteria) — **Required for all SOC 2 reports**
+Security focuses on protecting systems and data from unauthorized access, disclosure, or modification. Every SOC 2 engagement includes Security controls.
 
-Security refers to protecting systems and data from unauthorized access, disclosure, or modifications.  
-Every SOC 2 engagement includes Security controls.
-
-### **Examples of Security controls**
-- Multi-factor authentication (MFA)  
-- Role-based access control (RBAC)  
+Examples of Security controls:  
+- Multi factor authentication (MFA)  
+- Role based access control (RBAC)  
 - Logging and monitoring  
 - Network segmentation  
 - Security awareness training  
-- Vulnerability scanning & patching  
+- Vulnerability scanning and patching  
 
-### **What auditors check**
-- Whether access is limited to authorized users  
-- Whether activity logs exist and are reviewed  
-- Whether security incidents are detected and resolved  
+What auditors look for:  
+- Access is limited to authorized users  
+- Activity logs exist and are reviewed  
+- Security incidents are detected, escalated, and resolved  
 
-### **Risks if controls are weak**
+Risks if Security controls are weak:  
 - Account compromise  
-- Credential stuffing attacks  
 - Unauthorized system changes  
-- Undetected insider threats  
+- Undetected insider activity  
+- Increased exposure to external attacks  
 
-### **Vendor Risk Analyst perspective**
-Security is the foundation of your vendor assessment. If Security controls fail, it affects every other TSC.
+Vendor Risk perspective:  
+Security is the foundation for the rest of the criteria. Weak Security controls will affect the overall risk rating regardless of how strong other areas are.
 
----
+## 2. Availability
 
-# 📦 2. Availability
+Availability focuses on system reliability and uptime. Controls in this category help ensure that a vendor can deliver services consistently and recover from disruptions.
 
-Availability focuses on system reliability and uptime commitments.  
-Controls ensure a vendor can deliver services consistently and recover quickly from disruptions.
-
-### **Examples of Availability controls**
-- Uptime monitoring dashboards  
-- Incident response processes  
+Examples of Availability controls:  
+- Uptime monitoring and dashboards  
+- Documented incident response processes  
 - Disaster recovery (DR) plans  
 - Redundant infrastructure  
-- Capacity management  
+- Capacity planning  
 
-### **What auditors check**
-- Whether DR plans exist and are tested  
-- Whether vendors track SLAs  
-- Whether incidents are logged and resolved  
+What auditors look for:  
+- DR plans exist and are tested  
+- Service level agreements (SLAs) are tracked  
+- Incidents are logged, analyzed, and resolved  
 
-### **Risks if controls are weak**
-- Outages impacting business operations  
+Risks if Availability is weak:  
+- Extended outages  
 - SLA violations  
 - Service instability  
-- Poor vendor reliability  
+- Operational disruption for customers  
 
-### **Vendor Risk Analyst perspective**
-You evaluate whether the vendor can stay operational during failures.  
-This matters heavily for SaaS, payment services, and critical infrastructure vendors.
+Vendor Risk perspective:  
+Availability matters most for vendors that are critical to your operations. For example, core SaaS platforms, payment processors, and infrastructure providers.
 
----
+## 3. Processing Integrity
 
-# 📊 3. Processing Integrity
+Processing Integrity ensures that systems process data completely, accurately, and in a timely manner.
 
-Processing Integrity ensures systems process data completely, accurately, and on time.
-
-### **Examples of Processing Integrity controls**
-- Input validation  
-- Error detection mechanisms  
+Examples of Processing Integrity controls:  
+- Input validation checks  
+- Error detection and logging  
 - Reconciliation procedures  
 - Batch processing checks  
-- Change management  
+- Change management for logic or calculations  
 
-### **What auditors check**
-- Whether data is processed correctly  
-- Whether errors are logged and corrected  
-- Whether unauthorized changes can be made  
+What auditors look for:  
+- Data is processed as intended  
+- Errors are detected and corrected  
+- Unauthorized changes are prevented or monitored  
 
-### **Risks if controls are weak**
-- Corrupted data  
-- Duplicate transactions  
-- Incorrect or delayed outputs  
-- Undetected system errors  
+Risks if Processing Integrity is weak:  
+- Corrupted or incomplete data  
+- Duplicate or missing transactions  
+- Incorrect reports and outputs  
+- Undetected system logic errors  
 
-### **Vendor Risk Analyst perspective**
-This matters most for vendors handling transactions, analytics, automation, or financial data.
+Vendor Risk perspective:  
+Processing Integrity is especially important for vendors handling financial data, analytics, automated processing, or any high volume transactions.
 
----
+## 4. Confidentiality
 
-# 🕵️‍♂️ 4. Confidentiality
+Confidentiality addresses the protection of sensitive information from unauthorized disclosure. This can include source code, internal documents, business plans, and non public customer data.
 
-Confidentiality covers protecting sensitive information from unauthorized disclosure.  
-This applies to source code, business plans, internal documents, or customer-specific data not considered personal data.
-
-### **Examples of Confidentiality controls**
+Examples of Confidentiality controls:  
 - Encryption at rest and in transit  
-- Data loss prevention (DLP)  
-- Access control (least privilege)  
+- Data loss prevention (DLP) tools  
+- Least privilege access control  
 - Secure key management  
-- Data classification policies  
+- Data classification and handling standards  
 
-### **What auditors check**
-- Whether encryption is implemented properly  
-- Whether access to sensitive data is restricted  
-- Whether data retention and disposal practices exist  
+What auditors look for:  
+- Encryption is implemented and managed correctly  
+- Access to sensitive data is restricted and reviewed  
+- Data retention and disposal processes exist and are followed  
 
-### **Risks if controls are weak**
-- Data leaks  
-- Insider misuse  
-- Unencrypted backups  
-- Exposure of proprietary or customer information  
+Risks if Confidentiality is weak:  
+- Data leaks or exposures  
+- Unencrypted backups or copies  
+- Insider misuse of data  
+- Loss of customer or partner trust  
 
-### **Vendor Risk Analyst perspective**
-Evaluate whether the vendor protects any non-public data your organization shares with them.
+Vendor Risk perspective:  
+You evaluate whether the vendor can protect any non public data you share with them, even if it is not personal data.
 
----
+## 5. Privacy
 
-# 🧑‍💻 5. Privacy
+Privacy focuses specifically on personal data, including how it is collected, stored, used, shared, and deleted. This often aligns with regulations and privacy laws.
 
-Privacy specifically refers to **personal** data — how it is collected, retained, used, shared, and disposed of.
-
-This criterion maps heavily to frameworks like:  
+Examples of Privacy related frameworks:  
 - GDPR  
 - CCPA  
-- HIPAA (where applicable)  
-- Company privacy notices  
+- Company privacy notices and commitments  
 
-### **Examples of Privacy controls**
-- Consent management  
-- Data subject rights processes  
+Examples of Privacy controls:  
+- Consent and notice mechanisms  
+- Data subject access and deletion processes  
 - Data retention and deletion schedules  
 - Privacy impact assessments  
-- Transparent privacy notices  
+- Transparency in privacy policies  
 
-### **What auditors check**
-- Whether personal data is handled according to commitments  
-- Whether users can access, correct, or delete their data  
-- Whether retention schedules are followed  
+What auditors look for:  
+- Personal data is handled according to published commitments and laws  
+- Users can access, correct, or delete their data where required  
+- Retention schedules and deletion processes are followed  
 
-### **Risks if controls are weak**
+Risks if Privacy controls are weak:  
 - Regulatory penalties  
-- Legal liability  
-- Damaged customer trust  
-- Privacy incidents or breaches  
+- Legal exposure  
+- Customer complaints and reputational damage  
+- Privacy incidents and investigations  
 
-### **Vendor Risk Analyst perspective**
-If the vendor processes **any** customer PII or employee PII, Privacy controls become critical in risk scoring.
+Vendor Risk perspective:  
+If the vendor processes any customer or employee personal data, Privacy becomes a key factor in the risk rating.
 
----
+## How the Trust Services Criteria Work Together
 
-# 🧩 How the Trust Criteria Work Together
+While each criterion is distinct, they are closely related:
 
-Although the criteria are distinct, they overlap significantly:
+- Security supports the other four criteria  
+- Availability relies on secure and stable systems  
+- Confidentiality depends on strong access control and encryption  
+- Processing Integrity relies on logging, monitoring, and change management  
+- Privacy depends on both Security and Confidentiality  
 
-- **Security** is required and supports all other criteria  
-- **Availability** depends on strong Security  
-- **Confidentiality** requires proper Access Control  
-- **Processing Integrity** relies on Logging, Monitoring, and Change Management  
-- **Privacy** depends on both Security and Confidentiality  
+Understanding how these areas connect helps you evaluate the completeness and maturity of a vendor's control environment.
 
-Understanding these relationships helps you evaluate the vendor’s maturity and the completeness of their control environment.
+## How Vendor Risk Analysts Apply the TSC
 
----
+When reviewing a SOC 2 report, you can use the TSC to:
 
-# 🎯 How Vendor Risk Analysts Apply the TSC in Real Assessments
+- Prioritize which controls to review in detail  
+- Identify gaps that have the highest impact on your business  
+- Assign risk levels such as low, medium, high, or critical  
+- Create targeted remediation recommendations  
+- Decide whether to approve, conditionally approve, or reject a vendor  
 
-When reviewing a SOC 2, you use the TSC to:
+The stronger your understanding of the Trust Services Criteria, the more accurately you can evaluate vendors and explain your decisions.
 
-1. Prioritize controls during review  
-2. Identify gaps with the highest business impact  
-3. Score risk levels (Low/Medium/High/Critical)  
-4. Create remediation recommendations  
-5. Determine whether to approve or reject a vendor  
-
-The stronger your understanding of the Trust Criteria, the more accurately you can review vendors.
-
----
-
-**Author:** Logan McDermott  
+Author: Logan McDermott
