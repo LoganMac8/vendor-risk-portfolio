@@ -17,7 +17,7 @@ This methodology is commonly used in GRC, audit, vendor risk, and compliance tea
 
 ---
 
-## 🧩 Step 1 — Understand the Structure of Each Framework
+## 🧩 Step 1 - Understand the Structure of Each Framework
 
 ### **NIST 800-53**
 - Very granular control families  
@@ -41,7 +41,7 @@ Understanding the intent of each framework ensures reliable alignment.
 
 ---
 
-## 🔍 Step 2 — Break Each Framework Into Control Units
+## 🔍 Step 2 - Break Each Framework Into Control Units
 Each framework is decomposed into a consistent format:
 
 - Control ID  
@@ -54,7 +54,7 @@ This produces an internal “source of truth” spreadsheet used for mapping.
 
 ---
 
-## 🔗 Step 3 — Perform Control Crosswalk Analysis
+## 🔗 Step 3 - Perform Control Crosswalk Analysis
 For each control in Framework A, we identify the closest match in Framework B using this sequence:
 
 1. **Direct Match (1-to-1)**  
@@ -73,7 +73,7 @@ Each mapping includes rationale for clarity.
 
 ---
 
-## 🔬 Step 4 — Validate Control Intent
+## 🔬 Step 4 - Validate Control Intent
 For each proposed match, we verify:
 
 - Does the control protect the same asset or risk area?  
@@ -85,7 +85,7 @@ Mapped controls must satisfy **intent**, not just have similar wording.
 
 ---
 
-## 📝 Step 5 — Document Evidence and Rationale
+## 📝 Step 5 - Document Evidence and Rationale
 Each mapping table includes:
 
 - Control ID  
@@ -98,7 +98,7 @@ This supports auditability and transparency.
 
 ---
 
-## 🧪 Step 6 — Review for Consistency
+## 🧪 Step 6 - Review for Consistency
 Mappings are reviewed using:
 
 - Reverse mapping checks  
@@ -110,7 +110,7 @@ This ensures no mismatches or accidental omissions.
 
 ---
 
-## 🚦 Step 7 — Identify Gaps and Provide Recommendations
+## 🚦 Step 7 - Identify Gaps and Provide Recommendations
 Where controls do not align, we capture:
 
 - The gap  
