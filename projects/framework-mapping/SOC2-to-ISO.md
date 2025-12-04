@@ -7,13 +7,13 @@ Mapping types include direct, partial, conceptual, and no-alignment (gap).
 ## 📌 How to Read This Mapping
 Each entry includes:
 
-- **SOC 2 TSC** – The Trust Services Criteria requirement  
-- **ISO 27001 Control** – Corresponding Annex A control(s)  
+- **SOC 2 TSC** - The Trust Services Criteria requirement  
+- **ISO 27001 Control** - Corresponding Annex A control(s)  
 - **Match Type**  
-  - **Direct** – Strong alignment  
-  - **Partial** – Covers some but not all requirements  
-  - **Conceptual** – Related in principle, not in scope  
-- **Notes** – Context for auditors or assessors  
+  - **Direct** - Strong alignment  
+  - **Partial** - Covers some but not all requirements  
+  - **Conceptual** - Related in principle, not in scope  
+- **Notes** - Context for auditors or assessors  
 
 This crosswalk is optimized for recruiters and hiring managers to quickly confirm your familiarity with frameworks.
 
@@ -21,7 +21,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 # 🔐 Security (Common Criteria CC Series)
 
-### **CC1.1 — Control Environment**
+### **CC1.1 - Control Environment**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.5.1 (Policies), A.5.2 (Roles & Responsibilities) |
@@ -30,7 +30,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 ---
 
-### **CC1.2 — Commitment to Integrity and Ethical Values**
+### **CC1.2 - Commitment to Integrity and Ethical Values**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.5.1, A.5.4 |
@@ -39,7 +39,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 ---
 
-### **CC2.1 — Board Oversight**
+### **CC2.1 - Board Oversight**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.5.3 (Segregation of duties), A.7.7 (Monitoring) |
@@ -48,7 +48,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 ---
 
-### **CC3.1 — Risk Assessment Process**
+### **CC3.1 - Risk Assessment Process**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.5.7 (Risk Management), A.8.16 (Monitoring Activities) |
@@ -57,7 +57,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 ---
 
-### **CC3.2 — Fraud Risk Assessment**
+### **CC3.2 - Fraud Risk Assessment**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.6.9 (Information Security in Supplier Relationships) |
@@ -66,7 +66,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 ---
 
-### **CC4.1 — Monitoring of Internal Controls**
+### **CC4.1 - Monitoring of Internal Controls**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.8.16 (Monitoring), A.7.8 (Independent Review) |
@@ -77,7 +77,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 # 🔐 Logical & Physical Access
 
-### **CC6.1 — Logical Access Security**
+### **CC6.1 - Logical Access Security**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.8.2 (Privileged Access), A.8.3 (User Access Management) |
@@ -86,7 +86,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 ---
 
-### **CC6.2 — User Access Provisioning**
+### **CC6.2 - User Access Provisioning**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.8.3, A.8.4 |
@@ -95,7 +95,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 ---
 
-### **CC6.6 — Network Security & Perimeter Controls**
+### **CC6.6 - Network Security & Perimeter Controls**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.8.20 (Network Security), A.8.23 (Segmentation) |
@@ -106,7 +106,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 # 🔄 Change Management (CC8 Series)
 
-### **CC8.1 — Change Management**
+### **CC8.1 - Change Management**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.8.32 (Change Management), A.5.1 |
@@ -117,7 +117,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 # 🛡️ Security Operations (CC7 Series)
 
-### **CC7.2 — Log Monitoring**
+### **CC7.2 - Log Monitoring**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.8.15 (Logging), A.8.16 (Monitoring Activities) |
@@ -126,7 +126,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 ---
 
-### **CC7.3 — Incident Detection & Response**
+### **CC7.3 - Incident Detection & Response**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.5.25 (Incident Reporting), A.5.26 (Incident Response) |
@@ -137,7 +137,7 @@ This crosswalk is optimized for recruiters and hiring managers to quickly confir
 
 # 🧾 Vendor & Third Party Management
 
-### **CC9.2 — Vendor Risk Management**
+### **CC9.2 - Vendor Risk Management**
 | Field | Value |
 |------|-------|
 | **ISO Control Match** | A.5.19 (Supplier Security), A.5.20 (Supplier Agreements) |
