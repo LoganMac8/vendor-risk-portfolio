@@ -7,15 +7,15 @@ Mappings include direct, partial, conceptual, and gap-based relationships to ref
 ## 📌 How to Read This Mapping
 Each row includes:
 
-- **NIST Control ID** – Source control  
-- **Description** – Summary of NIST control intent  
-- **SOC 2 Criteria Match** – Corresponding SOC 2 TSC ID(s)  
+- **NIST Control ID** - Source control  
+- **Description** - Summary of NIST control intent  
+- **SOC 2 Criteria Match** - Corresponding SOC 2 TSC ID(s)  
 - **Match Type**  
-  - **Direct** – Strong alignment  
-  - **Partial** – Needs additional controls to fully match  
-  - **Conceptual** – Aligns philosophically, not technically  
+  - **Direct** - Strong alignment  
+  - **Partial** - Needs additional controls to fully match  
+  - **Conceptual** - Aligns philosophically, not technically  
   - **Gap** – No meaningful match  
-- **Rationale** – Explanation of why this mapping applies  
+- **Rationale** - Explanation of why this mapping applies  
 
 This file includes a representative sample of mappings appropriate for portfolio demonstration.
 
@@ -23,7 +23,7 @@ This file includes a representative sample of mappings appropriate for portfolio
 
 # 🔐 Access Control (AC Family)
 
-### **AC-1 — Access Control Policy and Procedures**  
+### **AC-1 - Access Control Policy and Procedures**  
 | Field | Value |
 |------|-------|
 | **SOC 2 Match** | CC1.2, CC6.1 |
@@ -32,7 +32,7 @@ This file includes a representative sample of mappings appropriate for portfolio
 
 ---
 
-### **AC-2 — Account Management**  
+### **AC-2 - Account Management**  
 | Field | Value |
 |------|-------|
 | **SOC 2 Match** | CC6.2, CC6.3, CC6.6 |
@@ -41,7 +41,7 @@ This file includes a representative sample of mappings appropriate for portfolio
 
 ---
 
-### **AC-3 — Access Enforcement**  
+### **AC-3 - Access Enforcement**  
 | Field | Value |
 |------|-------|
 | **SOC 2 Match** | CC6.1, CC6.6 |
@@ -50,7 +50,7 @@ This file includes a representative sample of mappings appropriate for portfolio
 
 ---
 
-### **AC-5 — Separation of Duties**  
+### **AC-5 - Separation of Duties**  
 | Field | Value |
 |------|-------|
 | **SOC 2 Match** | CC1.2, CC7.2 |
@@ -61,7 +61,7 @@ This file includes a representative sample of mappings appropriate for portfolio
 
 # 📝 Audit & Accountability (AU Family)
 
-### **AU-2 — Audit Events**  
+### **AU-2 - Audit Events**  
 | Field | Value |
 |------|-------|
 | **SOC 2 Match** | CC7.2, CC7.3 |
@@ -70,7 +70,7 @@ This file includes a representative sample of mappings appropriate for portfolio
 
 ---
 
-### **AU-6 — Audit Review, Analysis, and Reporting**  
+### **AU-6 - Audit Review, Analysis, and Reporting**  
 | Field | Value |
 |------|-------|
 | **SOC 2 Match** | CC7.2, CC7.3 |
@@ -81,7 +81,7 @@ This file includes a representative sample of mappings appropriate for portfolio
 
 # 🔄 Configuration Management (CM Family)
 
-### **CM-2 — Baseline Configuration**  
+### **CM-2 - Baseline Configuration**  
 | Field | Value |
 |------|-------|
 | **SOC 2 Match** | CC8.1 |
@@ -90,7 +90,7 @@ This file includes a representative sample of mappings appropriate for portfolio
 
 ---
 
-### **CM-6 — Configuration Settings**  
+### **CM-6 - Configuration Settings**  
 | Field | Value |
 |------|-------|
 | **SOC 2 Match** | CC8.1 |
@@ -101,7 +101,7 @@ This file includes a representative sample of mappings appropriate for portfolio
 
 # 🛡️ System & Communications Protection (SC Family)
 
-### **SC-7 — Boundary Protection**  
+### **SC-7 - Boundary Protection**  
 | Field | Value |
 |------|-------|
 | **SOC 2 Match** | CC6.6, CC6.7 |
@@ -110,7 +110,7 @@ This file includes a representative sample of mappings appropriate for portfolio
 
 ---
 
-### **SC-12 — Cryptographic Key Establishment**  
+### **SC-12 - Cryptographic Key Establishment**  
 | Field | Value |
 |------|-------|
 | **SOC 2 Match** | CC6.7 |
