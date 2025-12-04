@@ -7,10 +7,10 @@ The goal is to show framework literacy, mapping logic, and the ability to transl
 ## 📌 How to Read This Mapping  
 Each entry includes:
 
-- **NIST Control Family & ID** — e.g., AC-2 (Access Control)  
-- **ISO 27001 Annex A Match** — corresponding ISO control(s)  
-- **Match Type** — Direct / Partial / Conceptual  
-- **Notes** — what an auditor or assessor should understand about the alignment  
+- **NIST Control Family & ID** - e.g., AC-2 (Access Control)  
+- **ISO 27001 Annex A Match** - corresponding ISO control(s)  
+- **Match Type** - Direct / Partial / Conceptual  
+- **Notes** - what an auditor or assessor should understand about the alignment  
 
 This is a *representative, high-value*, recruiter-friendly mapping — not an exhaustive catalog.
 
@@ -18,7 +18,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 # 🔐 Access Control (AC Family)
 
-### **AC-2 — Account Management**
+### **AC-2 - Account Management**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.8.2 (Privileged Access), A.8.3 (User Access Management) |
@@ -27,7 +27,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 ---
 
-### **AC-6 — Least Privilege**
+### **AC-6 - Least Privilege**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.8.2 |
@@ -36,7 +36,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 ---
 
-### **AC-17 — Remote Access**
+### **AC-17 - Remote Access**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.8.20 (Network Security), A.8.26 (Secure Authentication) |
@@ -47,7 +47,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 # 🏗️ System & Communications Protection (SC Family)
 
-### **SC-7 — Boundary Protection**
+### **SC-7 - Boundary Protection**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.8.20 (Network Security), A.8.23 (Segregation) |
@@ -56,7 +56,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 ---
 
-### **SC-13 — Cryptographic Protection**
+### **SC-13 - Cryptographic Protection**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.8.24 (Use of Cryptography) |
@@ -65,7 +65,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 ---
 
-### **SC-28 — Protection of Information at Rest**
+### **SC-28 - Protection of Information at Rest**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.8.24 |
@@ -76,7 +76,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 # 🛡️ Audit & Accountability (AU Family)
 
-### **AU-2 — Audit Events**
+### **AU-2 - Audit Events**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.8.15 (Logging), A.8.16 (Monitoring) |
@@ -85,7 +85,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 ---
 
-### **AU-6 — Audit Review, Analysis, & Reporting**
+### **AU-6 - Audit Review, Analysis, & Reporting**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.8.16 |
@@ -96,7 +96,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 # 🚨 Incident Response (IR Family)
 
-### **IR-4 — Incident Handling**
+### **IR-4 - Incident Handling**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.5.25 (Reporting), A.5.26 (Response) |
@@ -105,7 +105,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 ---
 
-### **IR-6 — Incident Reporting**
+### **IR-6 - Incident Reporting**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.5.25 |
@@ -116,7 +116,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 # 🧪 Security Assessment & Authorization (CA Family)
 
-### **CA-2 — Security Assessments**
+### **CA-2 - Security Assessments**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.5.32 (Independent Review), A.8.28 (Secure Coding) |
@@ -127,7 +127,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 # 🔧 Configuration Management (CM Family)
 
-### **CM-2 — Baseline Configuration**
+### **CM-2 - Baseline Configuration**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.8.9 (Configuration Management) |
@@ -136,7 +136,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 ---
 
-### **CM-6 — Configuration Management**
+### **CM-6 - Configuration Management**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.8.10 (Change Management) |
@@ -147,7 +147,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 # 🎛️ Risk Assessment (RA Family)
 
-### **RA-3 — Risk Assessment**
+### **RA-3 - Risk Assessment**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.5.7 (Risk Management) |
@@ -156,7 +156,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 ---
 
-### **RA-5 — Vulnerability Scanning**
+### **RA-5 - Vulnerability Scanning**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.8.8 (Vulnerability Management) |
@@ -167,7 +167,7 @@ This is a *representative, high-value*, recruiter-friendly mapping — not an ex
 
 # 📦 Supply Chain Risks (SR Family)
 
-### **SR-3 — Supply Chain Controls**
+### **SR-3 - Supply Chain Controls**
 | Field | Value |
 |------|-------|
 | **ISO Match** | A.5.19 (Supplier Security), A.5.20 (Supplier Agreements) |
