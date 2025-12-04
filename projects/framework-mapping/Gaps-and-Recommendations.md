@@ -1,5 +1,5 @@
 # Gaps & Recommendations  
-This document summarizes areas where NIST 800-53, ISO 27001:2022, and SOC 2 criteria diverge — plus recommended remediation steps that real organizations use to unify multi-framework compliance.
+This document summarizes areas where NIST 800-53, ISO 27001:2022, and SOC 2 criteria diverge, plus recommended remediation steps that real organizations use to unify multi-framework compliance.
 
 The goal is to demonstrate my ability to identify cross-framework control weaknesses and provide practical, audit-focused improvements.
 
