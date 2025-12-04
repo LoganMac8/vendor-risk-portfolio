@@ -1,131 +1,102 @@
-# Cloudflare — Vendor Security Questionnaire Responses  
-_25-Question Security & Risk Questionnaire_
+Cloudflare — Vendor Security Questionnaire Responses
+25-Question Security & Risk Questionnaire
 
-These responses are based solely on Cloudflare’s **publicly available** security documentation, Trust Center materials, and standard SOC 2 expectations.  
-No confidential SOC 2 content is included.
+These answers are based solely on Cloudflare’s publicly available Trust Center and security documentation. No confidential SOC 2 information was used.
 
----
+1. Access Control
+1. Do you enforce MFA for administrative access?
+Yes. Cloudflare requires MFA for privileged accounts.
 
-## 🔐 1. Access Control
+2. Do you follow a least-privilege access model?
+Yes. Cloudflare uses role-based access and least-privilege principles.
 
-**1. Do you enforce multi-factor authentication (MFA) for administrative access?**  
-✔ Yes — Cloudflare publicly states MFA is required for privileged access.
+3. Are access rights reviewed regularly?
+Yes. Access reviews occur on a recurring schedule as part of governance.
 
-**2. Do you follow a least-privilege access model?**  
-✔ Yes — Role-based and least-privilege access methods are documented.
+4. Are accounts for terminated employees removed promptly?
+Yes. Cloudflare documents a standardized offboarding and account revocation process.
 
-**3. Are access rights reviewed regularly?**  
-✔ Yes — Cloudflare conducts periodic access reviews as part of governance.
+2. Policies, Governance & HR Security
+5. Do you maintain formal security policies reviewed annually?
+Yes. Policies are reviewed and updated on an annual cycle.
 
-**4. Are accounts for terminated employees removed promptly?**  
-✔ Yes — Public sources confirm standardized offboarding processes.
+6. Are employees required to sign confidentiality agreements?
+Yes. NDAs and confidentiality agreements are part of onboarding.
 
----
+7. Do employees receive recurring security awareness training?
+Yes. Mandatory and ongoing security and privacy training is provided.
 
-## 📝 2. Policies, Governance & HR Security
+8. Do you perform background checks where legally allowed?
+Yes. Background checks are performed as permitted by law.
 
-**5. Do you maintain formal security policies reviewed annually?**  
-✔ Yes — Cloudflare reviews policies on a regular annual cycle.
+3. Asset Management & Data Protection
+9. Do you classify data according to sensitivity?
+Yes. Cloudflare uses internal data classification standards.
 
-**6. Are employees required to sign confidentiality agreements?**  
-✔ Yes — NDAs and confidentiality obligations are standard.
+10. Is data encrypted in transit?
+Yes. TLS 1.2/1.3 is used across services.
 
-**7. Do employees receive recurring security awareness training?**  
-✔ Yes — Cloudflare provides mandatory security and privacy training.
+11. Is data encrypted at rest?
+Yes. Industry-standard encryption is applied to stored data.
 
-**8. Do you perform background checks where legally allowed?**  
-✔ Yes — Disclosed in Cloudflare’s Trust & Safety practices.
+12. Do you have controls to prevent unauthorized data exfiltration?
+Partially. Cloudflare publicly describes monitoring and access controls, though full details are not disclosed.
 
----
+4. Logging, Monitoring & Incident Response
+13. Do you maintain centralized logging and monitoring?
+Yes. Cloudflare operates extensive centralized logging and monitoring.
 
-## 📦 3. Asset Management & Data Protection
+14. Do you have a formal incident response plan?
+Yes. A documented incident response process is publicly outlined.
 
-**9. Do you classify data according to sensitivity?**  
-✔ Yes — Cloudflare references internal data classification standards.
+15. Have you tested your incident response plan in the last 12 months?
+Likely. While dates are not public, Cloudflare’s maturity suggests regular testing.
 
-**10. Is data encrypted in transit?**  
-✔ Yes — TLS 1.2/1.3 used across services.
+16. Do you notify customers if a breach occurs?
+Yes. Cloudflare commits to required breach notification obligations.
 
-**11. Is data encrypted at rest?**  
-✔ Yes — Industry-standard encryption used for stored data.
+5. Cloud Security & Shared Responsibility
+17. Do you use a major cloud provider and follow a shared responsibility model?
+Yes. Cloudflare operates its own global edge network and aligns with shared responsibility where applicable.
 
-**12. Do you have controls to prevent unauthorized data exfiltration?**  
-✔ Partially — Disclosure indicates monitoring and access restriction, though details are not public.
+18. Are cloud environments configured securely (segmentation, least privilege, encryption)?
+Yes. Cloudflare follows industry-standard cloud security practices.
 
----
+19. Do you regularly assess cloud configuration security?
+Yes. Continuous monitoring and configuration evaluation are described.
 
-## 🖥️ 4. Logging, Monitoring & Incident Response
+6. Subservice Providers / Supply Chain Risk
+20. Do you use subprocessors?
+Yes. Cloudflare publishes a list of subprocessors.
 
-**13. Do you maintain centralized logging and monitoring?**  
-✔ Yes — Cloudflare’s platform uses extensive centralized logging.
+21. Do you assess the security of subprocessors?
+Yes. Subprocessors undergo internal review and contractual requirements.
 
-**14. Do you have a formal incident response plan?**  
-✔ Yes — Public documentation details incident response processes.
+22. Do you maintain an updated subprocessor list?
+Yes. The list is publicly maintained and updated.
 
-**15. Have you tested your incident response plan within 12 months?**  
-✔ Likely — While specific dates are not public, maturity suggests regular testing.
+7. Change Management & SDLC
+23. Do you follow a formal change management process?
+Yes. Cloudflare uses structured change review and approval workflows.
 
-**16. Do you notify customers if a breach occurs?**  
-✔ Yes — Cloudflare commits to breach notification obligations.
+24. Do you use secure development practices (code review, scanning, testing)?
+Yes. Cloudflare performs code reviews, static/dynamic analysis, and security testing, and also operates a bug bounty program.
 
----
+8. Business Continuity
+25. Do you maintain and test business continuity and disaster recovery plans?
+Yes. Cloudflare uses a globally redundant architecture and regularly tests continuity procedures.
 
-## 🌩️ 5. Cloud Security & Shared Responsibility
+Summary
+Cloudflare demonstrates strong control maturity across all major security domains, including:
+- Access governance
+- Policies and training
+- Robust encryption practices
+- Centralized logging and monitoring
+- Mature incident response capabilities
+- Modern cloud security architecture
+- Transparent subprocessor management
+- Secure development lifecycle processes
+- Tested business continuity and resilience
 
-**17. Do you use a major cloud provider and follow a shared responsibility model?**  
-✔ Yes — Cloudflare runs its own global edge network and aligns with shared responsibility where applicable.
-
-**18. Are cloud environments configured securely (segmentation, least privilege, encryption)?**  
-✔ Yes — Documented industry-standard cloud security practices.
-
-**19. Do you regularly assess cloud configuration security?**  
-✔ Yes — Cloudflare references continuous monitoring and configuration evaluation.
-
----
-
-## 🔗 6. Subservice Providers / Supply Chain Risk
-
-**20. Do you use subprocessors?**  
-✔ Yes — Cloudflare publicly lists subprocessors.
-
-**21. Do you assess the security of subprocessors?**  
-✔ Yes — Cloudflare uses internal review and contractual obligations.
-
-**22. Do you maintain an updated subprocessor list?**  
-✔ Yes — Updated list is publicly available with notifications.
-
----
-
-## 🔁 7. Change Management & SDLC
-
-**23. Do you follow a formal change management process?**  
-✔ Yes — Cloudflare uses structured review and approval workflows.
-
-**24. Do you use secure development practices (code review, scanning, testing)?**  
-✔ Yes — Cloudflare performs code review, static/dynamic analysis, security testing, and runs a bug bounty program.
-
----
-
-## 🧭 8. Business Continuity
-
-**25. Do you maintain and test business continuity/disaster recovery plans?**  
-✔ Yes — Cloudflare uses a globally redundant architecture and tests continuity processes.
-
----
-
-# ✔ Summary of Questionnaire Findings
-
-Cloudflare demonstrates a **high level of control maturity** across all major security domains:
-
-- Strong access governance  
-- Mature policies and training  
-- Robust encryption practices  
-- Comprehensive logging & monitoring  
-- Strong incident response posture  
-- Modern cloud security architecture  
-- Transparent subprocessor management  
-- Solid SDLC and secure development lifecycle  
-- Tested business continuity and resilience  
-
-These responses indicate Cloudflare is well-aligned with SOC 2 expectations and modern TPRM requirements.
+Overall, Cloudflare aligns well with SOC 2 expectations and common third-party risk management requirements.
 
