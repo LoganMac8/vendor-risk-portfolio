@@ -1,32 +1,60 @@
 # Vendor Risk Scoring Model  
-A quantitative, repeatable scoring framework used to evaluate third-party vendors based on likelihood × impact analysis.
+A complete, audit-ready quantitative scoring framework used to classify third-party vendors based on likelihood, impact, and control strength. This model mirrors the scoring logic used in mature TPRM, GRC, and Security Assurance programs.
 
 ## 📌 Purpose  
-This model provides an objective way to classify vendors into risk tiers by analyzing their control strength, exposure level, data sensitivity, and business criticality. It is designed to support Third-Party Risk Management (TPRM) programs with consistent, defensible scoring results.
+This project demonstrates the ability to:  
+- Build a structured, defensible vendor scoring methodology  
+- Quantify risk using measurable inputs  
+- Align scoring with SOC 2, ISO 27001, NIST 800-53, and FFIEC expectations  
+- Communicate results clearly across Procurement, Legal, and Security  
+- Produce documentation suitable for audits, regulators, and leadership reviews  
 
-## 📂 Included Documents  
-- **Overview.md** – High-level project summary  
-- **Methodology.md** – Scoring logic, formulas, and framework design  
-- **Scoring-Model.md** – Full likelihood × impact scoring table  
-- **Risk-Heatmap.md** – Color-coded heatmap and tier thresholds  
-- **Examples.md** – Sample vendor scoring scenarios  
-- **Summary.md** – Final conclusions and usage recommendations  
+It proves proficiency in risk modeling, control assessment, and third-party due diligence.
+
+---
+
+## 📂 Project Files  
+The project includes the full scoring workflow:
+
+- **Overview.md** – What the scoring model is and why it matters  
+- **Methodology.md** – How likelihood × impact scoring works  
+- **Scoring-Model.md** – Definitions, weights, and scoring tables  
+- **Example-Scoring.md** – Realistic vendor scoring examples  
+- **Risk-Heatmap.png** – Visual tier mapping  
+- **Summary.md** – Executive summary of scoring logic and outcomes  
+
+---
 
 ## 🎯 Skills Demonstrated  
-- Quantitative Risk Scoring  
-- Likelihood × Impact Evaluation  
-- Vendor Tiering & Classification  
-- Control Strength Weighting  
-- Risk Heatmap Design  
-- Governance Documentation  
-- Clear Technical Writing  
+- Vendor risk scoring  
+- Inherent vs residual risk evaluation  
+- Likelihood and impact modeling  
+- Control strength analysis  
+- Heatmap visualization  
+- Risk tiering and classification  
+- Audit-ready documentation  
+- Communication of risk to non-technical audiences  
+- Alignment with compliance frameworks  
 
-## ⭐ Why This Project Matters  
-A scoring model is one of the core tools used by Vendor Risk, Security Assurance, and GRC teams.  
-This project demonstrates the ability to:
+---
 
-- Build standardized risk scoring frameworks  
-- Translate vendor evidence into numerical scoring  
-- Communicate risk levels to stakeholders  
-- Support audit-ready, repeatable TPRM processes  
+## ⭐ Why Recruiters Care  
+This project showcases real-world GRC and TPRM capabilities that hiring managers look for:
+
+- Ability to quantify vendor risk  
+- Ability to build structured compliance documentation  
+- Ability to translate controls into scoring criteria  
+- Ability to model risk the same way enterprise GRC teams do  
+
+This is the kind of work Vendor Risk Analysts, GRC Analysts, and Security Assurance Specialists perform daily.
+
+---
+
+## 📫 Questions or Work Samples  
+If you'd like to see how this model integrates with SOC 2 analysis, vendor questionnaires, or risk summaries, feel free to reach out.
+
+Logan McDermott  
+Third-Party Risk Analyst | Vendor Risk | GRC Analyst  
+LinkedIn: https://www.linkedin.com/in/logan-mcdermott-487710221  
+GitHub: https://github.com/LoganMac8  
 
