@@ -52,12 +52,12 @@ This provides actionable insight for:
 ## 📁 What’s Included in This Folder
 This folder contains seven curated documents:
 
-- `Methodology.md` — How the mapping and analysis were performed  
-- `NIST-to-SOC2.md` — Detailed alignment table  
-- `SOC2-to-ISO.md` — Detailed alignment table  
-- `NIST-to-ISO.md` — Detailed alignment table  
-- `Gaps-and-Recommendations.md` — Identified gaps + treatment options  
-- `Summary.md` — Executive-level summary  
+- `Methodology.md` - How the mapping and analysis were performed  
+- `NIST-to-SOC2.md` - Detailed alignment table  
+- `SOC2-to-ISO.md` - Detailed alignment table  
+- `NIST-to-ISO.md` - Detailed alignment table  
+- `Gaps-and-Recommendations.md` - Identified gaps + treatment options  
+- `Summary.md` - Executive-level summary  
 
 ---
 
